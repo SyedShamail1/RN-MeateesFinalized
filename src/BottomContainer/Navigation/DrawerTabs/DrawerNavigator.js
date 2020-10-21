@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import {createBottomTabNavigator} from 'react-navigation-tabs'
+import {createDrawerNavigator} from 'react-navigation-drawer'
 
-import HomeScreen from '../Screens/Home'
-import AboutUs from '../Screens/AbousUs'
-import ContactUs from '../Screens/Contactus'
-import CustomerLogin from '../Screens/CustomerLogin'
+import HomeScreen from '../../Screens/Home'
+import AboutUs from '../../Screens/AbousUs'
+import ContactUs from '../../Screens/Contactus'
+import CustomerLogin from '../../Screens/CustomerLogin'
 
 import {
   
@@ -17,7 +17,7 @@ import {
     ScrollView,
   } from 'react-native';
 
-const TabNavigator = createBottomTabNavigator({
+const DrawerNavigator = createDrawerNavigator({
     Home: {
       screen: HomeScreen,
       navigationOptions:()=>{
@@ -103,4 +103,4 @@ const TabNavigator = createBottomTabNavigator({
   
   });
   
-  export default TabNavigator;
+  export default DrawerNavigator;

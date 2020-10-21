@@ -1,14 +1,9 @@
 import React, {Component} from 'react';
-import {
-  
+import { 
   StyleSheet,
   Text,
   View,
-  SafeAreaView,
-  Image,
-  Dimensions,
-  ScrollView,
-  StatusBar,
+  Image, 
 } from 'react-native';
 
 

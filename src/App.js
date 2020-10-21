@@ -16,13 +16,17 @@ import {
   StatusBar,
 } from 'react-native';
 
-import AppNavigator from './BottomContainer/Navigation/AppNavigator'
+import AppNavigator from './BottomContainer/Navigation/BottomTabs/BottomAppNavigator'
+
 
 export default class App extends Component{
 render() {
   return (
+   
 
+    
     <AppNavigator />
+    
   )
 }
 }
